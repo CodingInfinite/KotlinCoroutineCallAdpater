@@ -58,6 +58,7 @@ class MainActivity : BaseActivity() {
         viewModel.error
             .nonNull()
             .observe(this) {
+                progressBar.visibility = View.GONE
                 Toast.makeText(this, it, Toast.LENGTH_SHORT).show()
             }
     }
