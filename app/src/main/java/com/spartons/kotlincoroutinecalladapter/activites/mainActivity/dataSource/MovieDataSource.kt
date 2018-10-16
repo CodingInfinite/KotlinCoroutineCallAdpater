@@ -10,7 +10,7 @@ import java.io.IOException
 class MovieDataSource constructor(private val apiService: ApiService) {
 
     companion object {
-        private const val API_KEY = "e5c7041343c9969c537ddc8b720e80c7"
+        private const val API_KEY = "e5c7041*****************0e80c7"
     }
 
     suspend fun getMovies(pageNumber: Int) = safeApiCall(
