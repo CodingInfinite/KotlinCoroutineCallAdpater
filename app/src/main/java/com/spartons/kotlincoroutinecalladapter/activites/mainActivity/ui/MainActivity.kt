@@ -54,6 +54,7 @@ class MainActivity : BaseActivity() {
             }
     }
 
+
     private fun listenToErrors() {
         viewModel.error
             .nonNull()
